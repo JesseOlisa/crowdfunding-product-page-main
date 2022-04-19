@@ -1,0 +1,84 @@
+/* .modal-category {
+    align-items: flex-start;
+    padding: 1rem !important;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.modal-category h1 {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.modal-category:hover h1 {
+    color: var(--moderate-cyan);
+}
+ .radio-btn-container {
+    margin-right: 1rem;
+    position: relative;
+    width: 1.2rem;
+    height: 1.2rem; 
+} 
+.modal-category input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+    margin-top: .3rem;
+    margin-left: .1rem;
+}
+.custom-radio-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 50%;
+}
+.modal-category:hover input ~ .custom-radio-btn {
+    border: 1px solid var(--moderate-cyan);
+}
+
+.custom-radio-btn::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.modal-category input:checked ~ .custom-radio-btn::after {
+    display: block;
+}
+.custom-radio-btn::after {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--moderate-cyan);
+    
+} */
+
+
+ <!-- <div class="modal-category support-category flex">
+      <div class="radio-btn-container">
+        <input type="radio" name="radio">
+        <span class="custom-radio-btn"></span>
+      </div>
+      <div class="content">
+        <h1>Pledge with no reward</h1> 
+        <p>Choose to support us without a reward if you simply believe in our project. As a backer, 
+       you will be signed up to receive product updates via email.</p>
+      </div>
+    </div> 
+    
+    <div class="modal-category support-category flex">
+      <div class="radio-btn-container">
+        <input type="radio" name="radio">
+        <span class="custom-radio-btn"></span>
+      </div>
+      <div class="content">
+        <h1>Bamboo Stand</h1> 
+        <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+          you’ll be added to a special Backer member list.email.</p>
+      </div>
+    </div> -->
