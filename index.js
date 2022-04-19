@@ -11,6 +11,7 @@ const submitBtns = document.querySelectorAll('.submit-btn');
 const progressbar = document.querySelector('.current-progress');
 const successBtn = document.getElementById('success-btn');
 
+//CLOSE MODAL IF CLICKED OUTSIDE THE MODAL CONTAINER
 window.addEventListener('click', (e)=> {
     if(e.target.classList.contains('show-modal')) {
         backProjectModal.classList.remove('show-modal');
@@ -74,7 +75,6 @@ submitBtns.forEach((buttons) => {
         /****to get the remaining backer value exclusively to the button***/
         let remainingBackersContainer = buttons.parentElement.parentElement.previousElementSibling;
         let remainingBackers =remainingBackersContainer.querySelector('#remaining-backers');
-        // let homePageBackersLeft = document.querySelectorAll("#backers-left");
         //reducing by 1
         let remainingBackersNum = toNumberFormat(remainingBackers.innerHTML);
         if(remainingBackersNum > 0) {
