@@ -237,11 +237,11 @@ section {
     text-align: left;
     padding: 3rem;
 }
-.about-project article h1 {
+.about-project article h2 {
     font-size: 1.3em;
     margin-bottom: 3rem;
 }
-.about-project article p {
+.about-project article p, .support-desc p {
     font-size: 1.1rem;
     margin-block: 1rem;
 }
@@ -251,7 +251,7 @@ section {
     border-radius: .7rem;
     margin-top: 2rem;
 }
-.support-category h1 {
+.support-category h2 {
     font-size: 1.25rem;
 }
 .support-category h2 {
@@ -606,7 +606,7 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 1.2rem;
         margin-bottom: 1rem;
     }
-    .about-project article p {
+    .about-project article p, .support-desc p {
         font-size: .95rem;
     }
     .support-category {
@@ -651,6 +651,7 @@ input[type=number]::-webkit-outer-spin-button {
     .pledge-container {
         text-align: center;
         justify-content: center;
+        padding-inline: .9rem;
     }
     .pledge-container p {
         margin-bottom: 1rem;
@@ -676,11 +677,16 @@ input[type=number]::-webkit-outer-spin-button {
         width: 80%;
     }
 }
-@media screen and (min-width: 34rem) and (max-width: 54.69rem) {
+@media screen and (min-width: 34rem) and (max-width: 56.899rem) {
     .welcome-page-section {
         width: 80%;
     }
+    .modal-container {
+        width: 80%;
+    }
+
 }
+
 @media screen and (min-width: 90rem) {
     .modal-container {
         position: fixed;
@@ -689,4 +695,4 @@ input[type=number]::-webkit-outer-spin-button {
         transform: translateY(-50%);
         margin-inline: auto;
     }
-}
+};

@@ -50,7 +50,6 @@
         <div class="support-project-container flex">
           <button class="btn btn-cyan" type="button" id="back-project">Back this project</button>
           <div class="bookmark-container flex">
-            <!-- <img src="./images/icon-bookmark.svg" alt="bookmark"> -->
             <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle  fill="#2F2F2F" cx="28" cy="28" r="28"/><path  fill="#B1B1B1" d="M23 19v18l5-5.058L33 37V19z"/></g></svg>
             <p class="fw-700">Bookmark</p>
           </div>
@@ -58,7 +57,7 @@
       </section>
   
       <!-- PROGRESS SECTION -->
-      <section class="progress-section white-bg">
+      <div class="progress-section white-bg">
         <div class="progress-container flex">
           <div class="cash-progress">
             <div>
@@ -83,11 +82,11 @@
         <div class="progress-bar">
           <div class="current-progress"></div>
         </div>
-      </section>
+      </div>
    
       <section class="about-project white-bg">
         <article>
-           <h1>About this project</h1> 
+           <h2>About this project</h2> 
   
           <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
             to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
@@ -101,13 +100,13 @@
         
         <div class="support-category">
           <div class="category-desc flex">
-            <h1>Bamboo Stand</h1>
+            <h2>Bamboo Stand</h2>
             <p class="cyan-color fw-700">Pledge $25 or more</p>
           </div>
-          <article>
+          <div class="support-desc">
             <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
               you’ll be added to a special Backer member list.</p>
-          </article>
+          </div>
   
           <div class="category-progress-container flex">
             <div class="flex">
@@ -120,13 +119,13 @@
         
         <div class="support-category">
           <div class="category-desc flex">
-            <h1>Black Edition Stand</h1>
+            <h2>Black Edition Stand</h2>
             <p class="cyan-color fw-700">Pledge $75 or more</p>
           </div>
-          <article>
+          <div class="support-desc">
             <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
               member list. Shipping is included.</p>
-          </article>
+          </div>
   
           <div class="category-progress-container flex">
             <div class="flex">
@@ -139,13 +138,13 @@
         
         <div class="support-category out-of-stock">
           <div class="category-desc flex">
-            <h1>Mahogany Special Edition</h1>
+            <h2>Mahogany Special Edition</h2>
             <p class="cyan-color fw-700">Pledge $200 or more</p>
           </div>
-          <article>
+          <div class="support-desc">
             <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
               to our Backer member list. Shipping is included.</p>
-          </article>
+          </div>
   
           <div class="category-progress-container flex">
             <div class="flex">
@@ -173,7 +172,7 @@
 
       <!-- MODAL OPTIONS STARTS  -->
 
-      <div class="container" role="option-no-reward">
+      <div class="container">
         <div class="option-container">
           <div class="label-container">
             <input type="radio" name="radio" id="radio-option-1">
@@ -212,7 +211,7 @@
           <p>Enter your pledge</p>
           <div class="pledge-input flex">
             <div class="pledge-input-container">
-              <input type="number" min="25" value="25" inputmode="numeric">
+              <input type="number" min="25" value="25">
               <i class="fa-solid fa-dollar-sign"></i>            
             </div>
             <button class="btn btn-cyan submit-btn" id="bamboo-btn">Continue</button>
@@ -259,7 +258,7 @@
       <!-- MAHOGANY SPECIAL EDITION -->
 
       <div class="container out-of-stock" id="mahogany-special-modal" >
-        <div class="option-container" role="mahogany-section">
+        <div class="option-container">
           <div class="label-container">
             <input type="radio" name="radio" id="radio-option-4">
             <span class="custom-radio-btn"></span>
@@ -279,7 +278,7 @@
           <p>Enter your pledge</p>
           <div class="pledge-input flex">
             <div class="pledge-input-container">
-              <input type="number" min="120" value="120" inputmode="numeric">
+              <input type="number" min="120" value="120">
               <i class="fa-solid fa-dollar-sign"></i>            
             </div>            
             <button class="btn btn-cyan submit-btn" disabled>Continue</button>
