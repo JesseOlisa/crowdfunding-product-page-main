@@ -132,7 +132,7 @@ header {
 .mobile-nav-btn-container {
     display: none;
 }
-main {
+.welcome-page-section {
     width: 50%;
     min-width: 15rem;
     margin-inline: auto;
@@ -553,7 +553,7 @@ input[type=number]::-webkit-outer-spin-button {
         aspect-ratio: 1;
         z-index: 1000;
     }
-    main {
+    .welcome-page-section {
         width: 90%;
         margin-top: 42%;
     }
@@ -677,7 +677,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 @media screen and (min-width: 34rem) and (max-width: 54.69rem) {
-    main {
+    .welcome-page-section {
         width: 80%;
     }
 }
