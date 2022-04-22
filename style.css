@@ -488,7 +488,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 /* --------------MEDIA QUERY-----------------------*/
-@media screen and (max-width: 34.999rem) {
+@media screen and (max-width: 35.999rem) {
     body {
         background-image: url(./images/image-hero-mobile.jpg);
         background-size: contain;
@@ -677,7 +677,7 @@ input[type=number]::-webkit-outer-spin-button {
         width: 80%;
     }
 }
-@media screen and (min-width: 34rem) and (max-width: 56.899rem) {
+@media screen and (min-width: 36rem) and (max-width: 58.899rem) {
     .welcome-page-section {
         width: 80%;
     }
