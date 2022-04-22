@@ -74,7 +74,7 @@ submitBtns.forEach((buttons) => {
         // //REDUCING THE REMAINING BACKERS BY 1 EACH TIME BUTTON IS CLICKED
         /****to get the remaining backer value exclusively to the button***/
         let remainingBackersContainer = buttons.parentElement.parentElement.previousElementSibling;
-        let remainingBackers =remainingBackersContainer.querySelector('#remaining-backers');
+        let remainingBackers =remainingBackersContainer.querySelector('.remaining-backers');
         //reducing by 1
         let remainingBackersNum = toNumberFormat(remainingBackers.innerHTML);
         if(remainingBackersNum > 0) {
